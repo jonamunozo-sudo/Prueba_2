@@ -10,9 +10,9 @@ while continuar:
         if edad > 0:  
             continuar = False
         else:
-            print("Debe ingresar una edad válida.")
+            print("Debe ingresar una edad valida.")
     except ValueError:
-        print("Debe ingresar un número entero.")
+        print("Debe ingresar un numero entero.")
 
 continuar = True
 while continuar:
@@ -20,7 +20,7 @@ while continuar:
     if tramo_cliente in ["A", "B", "C", "D"]:
         continuar = False
     else:
-        print("Debe ingresar una opción válida (A, B, C o D).")
+        print("Debe ingresar una opcion valida (A, B, C o D).")
 
 if edad <= 30:
     if tramo_cliente in ["A", "B"]:
